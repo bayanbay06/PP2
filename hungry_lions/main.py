@@ -56,9 +56,7 @@ if __name__ == '__main__':
         for i in enemy_pos:
             if mx < i[1]:
                 mx = i[1]
-        import pdb
-
-        pdb.set_trace()
+        
         for i, enemy in enumerate(enemy_pos):
             if x == enemy[0] and y == enemy[1]:
                 print("enemy")
